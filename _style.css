@@ -50,7 +50,7 @@ body {
   transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 0, 0rem);
 }
 .card .image.cutout {
-  transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 0, 4rem) scale(0.92);
+  /* transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 0, 4rem) scale(0.92); */
   z-index: 3;
 }
 .card .content {
@@ -68,7 +68,7 @@ body {
   position: absolute;
   inset: 1.5rem;
   border: #e2c044 0.5rem solid;
-  transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 0, 2rem);
+  /* transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 0, 2rem); */
 }
 .card::before {
   z-index: 4;
